@@ -29,5 +29,29 @@ public class SubBank extends Bank{
         System.out.printf("Sisa saldo "+name+" sebesar : %s %n", kurensiIndonesia.format(saldo));
         System.out.println();
     }
+
+    public Date getTanggal() {
+        return tanggal;
+    }
+
+    public void setTanggal(Date tanggal) {
+        this.tanggal = tanggal;
+    }
+
+    public int getBiayatf() {
+        return biayatf;
+    }
+
+    public void setBiayatf(int biayatf) {
+        this.biayatf = biayatf;
+    }
+
+    public int getJumlahtf() {
+        return jumlahtf;
+    }
+
+    public void setJumlahtf(int jumlahtf) {
+        this.jumlahtf = jumlahtf;
+    }
 }
 
