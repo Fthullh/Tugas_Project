@@ -7,6 +7,20 @@ public class SubBank extends Bank{
     int biayatf;
     int jumlahtf;
 
+    public SubBank() {
+        super();
+    }
+
+    @Override
+    void tampilData() {
+        super.tampilData();
+    }
+
+    @Override
+    void cekSaldo() {
+        super.cekSaldo();
+    }
+
     void dataBank(){
         String[] namabank = {"BNI","BRI","BCA","MEGA","MANDIRI","DANAMON","MUAMALAT"};
         String[] kodebank = {"009","002","014","426","008","011","147"};
