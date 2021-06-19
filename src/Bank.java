@@ -11,6 +11,40 @@ public class Bank {
     int setor;
     int tarik;
 
+    public Bank() {
+    }
+
+    public Bank(String name, String nik, String alamat, String telp, String rek, int saldo, int setor, int tarik) {
+        System.out.println("~~~~~~~~~~~~ Constructor 1 ~~~~~~~~~~~");
+        this.name = name;
+        this.nik = nik;
+        this.alamat = alamat;
+        this.telp = telp;
+        this.rek = rek;
+        this.saldo = saldo;
+        this.setor = setor;
+        this.tarik = tarik;
+    }
+
+    public Bank(String name, String nik, String alamat, String telp, String rek, int saldo) {
+        System.out.println("~~~~~~~~~~~~ Constructor 2 ~~~~~~~~~~~");
+        this.name = name;
+        this.nik = nik;
+        this.alamat = alamat;
+        this.telp = telp;
+        this.rek = rek;
+        this.saldo = saldo;
+    }
+
+    public Bank(String name, String nik, String alamat, String telp, String rek) {
+        System.out.println("~~~~~~~~~~~~ Constructor 3 ~~~~~~~~~~~");
+        this.name = name;
+        this.nik = nik;
+        this.alamat = alamat;
+        this.telp = telp;
+        this.rek = rek;
+    }
+
     void tampilData(){
         System.out.println("Nama\t\t\t:" + this.name);
         System.out.println("NIK\t\t\t\t:" + this.nik);
