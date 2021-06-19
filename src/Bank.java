@@ -75,4 +75,68 @@ public class Bank {
         System.out.printf("Total saldo "+name+" sebesar : %s %n", kurensiIndonesia.format(saldo));
         System.out.println();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getNik() {
+        return nik;
+    }
+
+    public void setNik(String nik) {
+        this.nik = nik;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getTelp() {
+        return telp;
+    }
+
+    public void setTelp(String telp) {
+        this.telp = telp;
+    }
+
+    public String getRek() {
+        return rek;
+    }
+
+    public void setRek(String rek) {
+        this.rek = rek;
+    }
+
+    public int getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
+    }
+
+    public int getSetor() {
+        return setor;
+    }
+
+    public void setSetor(int setor) {
+        this.setor = setor;
+    }
+
+    public int getTarik() {
+        return tarik;
+    }
+
+    public void setTarik(int tarik) {
+        this.tarik = tarik;
+    }
 }
